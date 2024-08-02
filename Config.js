@@ -7,9 +7,9 @@ global.ownernumber = [ process.env.OWNER_NUMBER || "+254704706667"],
 global.ownername = process.env.OWNER_NAME || "Eternal Blue",
 global.ytname = "YT: AyushBotz.inc"
 global.socialm = "GitHub: Ayushpandey023"
-global.location = "Indian"
+global.location = "Kenya"
 
-global.botname = process.env.BOTNAME || "𝐌𝐀𝐑𝐈𝐀-𝐌𝐃",//name of the bot
+global.botname = process.env.BOTNAME || "ANTI-SHIT",//name of the bot
 
 //sticker details
 global.stickername = process.env.STICKER || "💙𓆩‎✘AʏᴜSʜ✘𓆪_✰",
@@ -26,7 +26,7 @@ global.link = 'https://whatsapp.com/channel/0029VaImo5ZG3R3qjKOdyr1I'
 global.prefa = process.env.PREFIX || ".",
 
 //false=disable and true=enable
-global.welcome = process.env.WELCOME || "false", //auto welcome
+global.welcome = process.env.WELCOME || "true", //auto welcome
 global.autoRecording = false //auto recording
 global.autoTyping = false //auto typing
 global.autorecordtype = false //auto typing + recording
@@ -53,7 +53,7 @@ global.mess = {
 module.exports = {
 ownernumber: global.ownernumber,
 ownername: global.ownername,
-sessionId: process.env.id || "_M_A_R_I_A_Q2hlbmlsbGVQbGF0dGVyCg==", // paste your session id here
+sessionId: process.env.id || "_M_A_R_I_A_QmFubmVyU3Vja2VyZWQK==", // paste your session id here
 AUTO_BLOCK : process.env.PM_BLOCKER,
 STATUS_SAVER : "true",
 ANTI_BOT:"true",
