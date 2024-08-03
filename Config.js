@@ -53,7 +53,7 @@ global.mess = {
 module.exports = {
 ownernumber: global.ownernumber,
 ownername: global.ownername,
-sessionId: process.env.id || "_M_A_R_I_A_SHVtYW5zRGlsdWNjYQo===", // paste your session id here
+sessionId: process.env.id || "3_8_b977_b332_66ba", // paste your session id here
 AUTO_BLOCK : process.env.PM_BLOCKER,
 STATUS_SAVER : "true",
 ANTI_BOT:"true",
